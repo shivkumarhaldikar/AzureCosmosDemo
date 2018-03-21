@@ -2,10 +2,7 @@
   "posts": [
     {
       "id": 1,
-      "fname": "Shivkumar,
-      "lname": "Haldikar",
-      "eid":4477955
-      "cnumber": "9044995595"
+      "title": "hello"
     }
   ],
   "profile": {
