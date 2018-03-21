@@ -1,11 +1,6 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "hello"
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "employees": [
+    { "id":1, "fname": "Shivkumar", "lname":"Haldikar", "eid":"449975", "cnum":"9988779955" },
+    { "id":2, "fname": "Reema", "lname":"Haldikar", "eid":"6646644", "cnum":"9548775577" }
+    ]
 }
