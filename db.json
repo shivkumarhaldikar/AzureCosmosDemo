@@ -2,6 +2,7 @@
   "employees": [
     { "id":1, "fname": "Shivkumar", "lname":"Haldikar", "eid":"449975", "cnum":"9988779955" },
     { "id":2, "fname": "Reema", "lname":"Haldikar", "eid":"664664", "cnum":"9548775577" },
-    { "id":3, "fname": "Manasvi", "lname":"Haldikar", "eid":"345564", "cnum":"9587775577" }
+    { "id":3, "fname": "Manasvi", "lname":"Haldikar", "eid":"345564", "cnum":"9587775577" },
+    { "id":4, "fname": "Thiru", "lname":"Murugan", "eid":"345573", "cnum":"9587775588" }
     ]
 }
