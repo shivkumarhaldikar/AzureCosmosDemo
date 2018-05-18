@@ -1,39 +1,35 @@
 
-     <h1>Employee Registration</h1>
     <form ngNativeValidate #saveForm='ngForm' (ngSubmit) = 'Save(saveForm)' >
-            <div class="form-group">
-            <div class="top-row">
-                <div class="field-wrap">
-                    <label>
-                        First Name<span class="req">*</span>
-                    </label>
-                    <input appInput type="text" name='fname' #fname="ngModel" required autocomplete="off" ngModel (change)="Change(fname)" />
-                    <div class="alert alert-danger" *ngIf="fname.touched && !fname.valid && !fname.pristine">
-                            
-                    </div>
-                </div>
-                <div class="field-wrap">
-                    <label>
-                        Last Name<span class="req">*</span>
-                    </label>
-                    <input appInput type="text" name='lname' required autocomplete="off" ngModel />
-                </div>
-            </div>
-            <div class="top-row">
-                <div class="field-wrap">
-                    <label>
-                        Employee ID<span class="req">*</span>
-                    </label>
-                    <input appInput type="text" name='eid' required autocomplete="off" ngModel />
-                </div>
-                <div class="field-wrap">
-                    <label>
-                        Contact Number<span class="req">*</span>
-                    </label>
-                <input appInput type="text" name='cnumber' required autocomplete="off" ngModel/>
-                </div>
-            </div>
-            </div>
-            <button type="submit" class="button button-block">Save</button>
-        </form>
-                  
+             <div class="form-group">
+             <div class="top-row">
+                 <div class="field-wrap">
+                     <label>
+                         First Name<span class="req">*</span>
+                     </label>
+                     <input appInput #fname type="text" name='fname' required autocomplete="off" />
+                 </div>
+                 <div class="field-wrap">
+                     <label>
+                         Last Name<span class="req">*</span>
+                     </label>
+                     <input appInput #lname type="text" name='lname' required autocomplete="off" />
+                 </div>
+             </div>
+             <div class="top-row">
+                 <div class="field-wrap">
+                     <label>
+                         Employee ID<span class="req">*</span>
+                     </label>
+                     <input appInput #eid type="text" name='eid' required autocomplete="off" />
+                 </div>
+                 <div class="field-wrap">
+                     <label>
+                         Contact Number<span class="req">*</span>
+                     </label>
+                 <input appInput #cnum type="text" name='cnum' c autocomplete="off" />
+                 </div>
+             </div>
+             </div>
+             <button type="submit" class="button button-block">Save</button>
+         </form>
+                   
